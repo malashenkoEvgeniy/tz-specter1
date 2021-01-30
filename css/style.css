@@ -1,0 +1,43 @@
+body {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Geometos;
+}
+
+.header {
+    min-width: 320px;
+    outline: 2px solid red;
+}
+
+a {
+    font-family: Geometos;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-proposal {
+    font-size: 12px;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 5px 10px;
+    border: 1px solid #888800;
+    border-radius: 15px;
+    background-color: #ffff00;
+}
+
+.header-proposal:hover {
+    opacity: 0.5;
+    color: #000000;
+}
