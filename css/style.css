@@ -49,6 +49,8 @@ button {
     color: #000000;
 }
 /*Block main*/
+
+/*Contact*/
 .mobile-proposal {
     display: none;
 }
@@ -57,6 +59,7 @@ button {
     min-height: 800px;
     background:  url('../img/features-printing.jpg') no-repeat  center;
     background-size: cover;
+    margin-bottom: 7px;
 
 }
 
@@ -108,3 +111,65 @@ button {
 .telegram::before {
     background:  url('../img/telegram.png') no-repeat  center;
 }  
+
+/*main-services*/
+
+.main-services {
+    margin-bottom: 12px;
+}
+
+.services-header {
+    display: block;
+    margin: 0 auto 7px auto;
+    width: 70px;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.services-header::before {
+    content: "";
+	position: absolute;
+	bottom: 1px;
+	left: 1px;
+	width: 65px;
+	height: 1px;
+	background-color: #999999;
+}
+
+.container-services {
+    display: flex;
+    flex-direction: column;
+    min-height: 266px;
+    background:  url('../img/services-bg.jpg') no-repeat  center;
+    background-size: cover;
+    color: #ffffff;
+    font-family: HelveticaNeueCyr;
+    font-size: 10px;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.row-services {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col-services {
+    padding: 5px;
+    background-color: #999999;
+    margin: 8px 5px;    
+}
+
+.row-aditional-services {
+    justify-content: center;
+}
+
+.aditional-services {
+    color: #ffed00;
+    background-color: transparent;
+    text-align: center;
+}
