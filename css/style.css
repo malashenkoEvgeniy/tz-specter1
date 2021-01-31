@@ -306,6 +306,7 @@ button {
 .our-product-list {
     list-style: none;
     padding-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 .our-product-link {
@@ -342,4 +343,70 @@ button {
 
 .our-product-link:hover::before {
     background-color: #ffffff;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 231px;
+     background:  url('../img/portfolio-bg.jpg') no-repeat  0 0;
+    background-size: cover;    
+}
+
+.portfolio-header {
+    position: relative;
+    font-size: 16.32px;
+    text-transform: uppercase;
+    background:  url('../img/rectangle.png') no-repeat  center;
+    padding: 25px;
+}
+
+
+/*our-clients*/
+.our-clients {
+    position: relative;
+}
+
+.our-clients-header {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #000000;
+}
+
+.our-clients-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-clients-table td {
+    border: 1px solid #bababa;
+    padding: 10px 20px;        
+}
+
+.our-clients-btn {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    transform: rotate(45deg);
+    font-size: 1px;
+    padding: 12px;
+    color: transparent;
+    border: 2px solid #7d7e7e;
+}
+
+.our-clients-prev {
+    border-top-color: transparent;
+    border-right-color: transparent;    
+}
+
+.our-clients-next {
+    left: auto;
+    right: 20px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
 }
