@@ -8,7 +8,6 @@ body {
 .header,
 main {
     min-width: 320px;
-    outline: 2px solid red;
     margin-bottom: 5px;
 }
 
@@ -27,6 +26,7 @@ button {
 }
 
 .header-wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +47,91 @@ button {
 .header-proposal:hover {
     opacity: 0.5;
     color: #000000;
+}
+
+.header-phone-number {
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    width: 145px;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: normal;
+    font-family: 'HelveticaNeueCyr';
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.not-visible {
+    display: none;
+}
+
+
+.header-menu-btn {
+    outline: 2px solid red;
+    width: 25px;
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 40px;
+    right: 1px;
+    width: 100%;
+    min-height: 290px;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    min-height: 290px;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: normal;
+    font-family: 'HelveticaNeueCyr';
+    font-weight: bold;
+    color: #000000;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+.nav-link:hover {
+    background-color: #ffed00;
+}
+
+.item-language {
+    position: relative;
+}
+
+.item-language::before {
+    content: "";
+	position: absolute;
+	top: -5px;
+	left: -25px;
+	width: 20px;
+	height: 20px;
+    background:  url('../img/language.png') no-repeat  center;
+    border: 1px solid #ffffff;
+}
+
+.item-language::after {
+    content: "";
+	position: absolute;
+	top: 0;
+	left: 25px;
+	width: 20px;
+	height: 20px;
+    background:  url('../img/dropdown-item.png') no-repeat  center;
+    border: 1px solid #ffffff;
 }
 /*Block main*/
 
@@ -433,4 +518,36 @@ button {
 
 .our-address-map {
     width: 100%;
+}
+
+/*footer*/
+
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer a {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: "ProximaNova";
+    font-size: 12px;
+    line-height: normal;    
+}
+
+@media (min-width: 420px) {
+    .header {
+        min-width: 420px;
+        margin-bottom: 5px;
+    }
 }

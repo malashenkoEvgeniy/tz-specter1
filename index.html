@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="fonts/Geometos.ttf">
     <link rel="stylesheet" href="fonts/HelveticaNeueCyr-Medium.ttf">
     <link rel="stylesheet" href="fonts/framd.ttf">
+    <link rel="stylesheet" href="fonts/ProximaNova-RegularIt.ttf">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Hello, world!</title>
 </head>
@@ -18,17 +20,27 @@
         </a>
 
         <a class="header-proposal" href="#">заявка</a>
-        <button>
+        <button class="header-phone-btn">
             <img src="img/phone.png" alt="phone">
         </button>
-        <button>
-            <img src="img/boorger.png" alt="boorger">
+        <div class="header-phone-number not-visible">+380662817118</div>
+
+        <button class="header-menu-btn">
+            <img class="menu-btn-boorger" src="img/boorger.png" alt="boorger">
+            <img class="menu-btn-close not-visible" src="img/close.png" alt="boorger">
         </button>
-    <!--    <nav class="nav-menu">-->
-    <!--        <ul class="nav-list">-->
-    <!--            <li class="nav-item">123</li>-->
-    <!--        </ul>-->
-    <!--    </nav>-->
+        <nav class="nav-menu not-visible">
+            <ul class="nav-list">
+                <li class="nav-item item-language">RU</li>
+                <li class="nav-item"><a class="nav-link" href="#">О нас</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Что печатаем</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Клиенты</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Партнерам</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">услуги</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 <main>
@@ -171,5 +183,33 @@
         </section>
     </div>
 </main>
+<footer>
+    <div class="main-footer">
+        <div class="footer-block">
+            <a href="#">
+                <img src="img/Logo.jpg" alt="Logo" width="90" height="20">
+            </a>
+            <a href="#">Контакты</a>
+            <a href="#">+380112233445</a>
+        </div>
+        <div class="footer-block">
+            <a href="#">О нас</a>
+            <a href="#">Партнерам</a>
+            <a href="#">Портфолио</a>
+        </div>
+        <div class="footer-block">
+            <a href="#">Что печатаем</a>
+            <a href="#">Клиенты</a>
+            <a href="#">Услуги</a>
+        </div>
+    </div>
+    <div class="copyright">
+        Создание сайта:
+        <a href="#">
+            <img src="img/specter.png" alt="specter">
+        </a>
+    </div>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>
