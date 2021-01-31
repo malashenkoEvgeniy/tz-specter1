@@ -146,7 +146,7 @@ button {
     background:  url('../img/services-bg.jpg') no-repeat  center;
     background-size: cover;
     color: #ffffff;
-    font-family: HelveticaNeueCyr;
+    font-family: 'HelveticaNeueCyr';
     font-size: 10px;
     line-height: normal;
     text-transform: uppercase;
@@ -172,4 +172,36 @@ button {
     color: #ffed00;
     background-color: transparent;
     text-align: center;
+}
+
+/*block-description*/
+.main-description {
+    margin-bottom: 1px;
+}
+
+.description-logo {
+    font-size: 14px;
+    line-height: normal;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.description-logo .logo {
+    margin-left: 5px;
+}
+
+.description-header {
+    font-family: "FRANKLIN GOTHIC MEDIUM";
+    font-size: 14px;
+    line-height: normal;
+    color: #6f6f6f;
+}
+
+.block-description {
+    font-size: 11px;
+    line-height: 18px;
+    color: #000000;
+    background:  url('../img/description-bg.png') no-repeat  0 100px;
+    background-size: cover;
 }
