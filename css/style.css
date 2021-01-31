@@ -410,3 +410,27 @@ button {
     border-left-color: transparent;
     border-bottom-color: transparent;
 }
+
+/*our-address*/
+
+.our-address-header {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #000000;
+}
+
+.our-address-block {
+    display: flex;
+    justify-content:space-around;
+}
+
+.our-address-paragraph {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.our-address-map {
+    width: 100%;
+}
