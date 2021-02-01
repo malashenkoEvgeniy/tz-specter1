@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="fonts/HelveticaNeueCyr-Medium.ttf">
     <link rel="stylesheet" href="fonts/framd.ttf">
     <link rel="stylesheet" href="fonts/ProximaNova-RegularIt.ttf">
-
+    <link rel="stylesheet" href="fonts/MyriadPro-Regular.ttf">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Hello, world!</title>
 </head>
 <body>
 <header class="header">
-    <div class="header-wrapper">
+    <div class="header-wrapper mobile">
         <a href="#">
-            <img src="img/Logo.jpg" alt="Logo" width="90" height="20">
+            <img class="main-logo" src="img/Logo.jpg" alt="Logo" width="90" height="20">
         </a>
 
         <a class="header-proposal" href="#">заявка</a>
@@ -42,6 +43,24 @@
             </ul>
         </nav>
     </div>
+    <div class="header-wrapper desktop">
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="" href="#"><img class="main-logo" src="img/Logo.jpg" alt="Logo" width="230" height="40"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">О нас</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Что печатаем</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">услуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Партнерам</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Клиенты</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                <li class="nav-item"><a class="nav-link header-phone-number" href="#">
+                    <img src="img/phone-receiver.png" alt="phone">
+                    +380662817118</a></li>
+                <li class="nav-item item-language">RU</li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
     <div class="main-wrapper">
@@ -53,7 +72,7 @@
                 <li class="contact-item"><a href="#" class="contact-link telegram">telegram</a></li>
             </ul>
         </section>
-        <section class="main-services">
+        <section class="main-services mobile">
             <h2 class="services-header">услуги</h2>
             <div class="container-services">
                 <div class="row-services">
@@ -80,23 +99,104 @@
                 </div>
             </div>
         </section>
-        <section class="main-description">
-            <div class="description-logo">
-                компания
-                <a class="logo" href="#">
-                    <img src="img/Logo.jpg" alt="Logo" width="90" height="20">
-                </a>
+        <section class="main-services desktop">
+            <ul class="main-services-list">
+                <li class="main-services-item first-service">
+                    <a href="#"><div>Офсетная или</div> цифровая печать</a>
+                </li>
+                <li class="main-services-item second-service">
+                    <h2 class="services-header">услуги</h2>
+                    <a href="#">заказать просчёт</a>
+                </li>
+                <li class="main-services-item third-service">
+                    <a href="#"><div>Доп. услуги: дизайн</div>  ламинация, скругление</a>
+                </li>
+                <li class="main-services-item forth-service">
+                    <a href="#"><div>Доставка курьером</div>  или самовывоз</a>
+                </li>
+                <li class="main-services-item fifth-service">
+                    <a href="#"><div> Печать на простой  бумаге </div>или  дизайнерском картоне</a>
+                </li>
+                <li class="main-services-item sixth-service">
+                    <a href="#"><div> ламинация матовая и</div>глянцевая</a>
+                </li>
+                <li class="main-services-item seventh-service">
+                    <h3><div>Дополнительные</div> услуги</h3>
+                </li>
+                <li class="main-services-item eighth-service">
+                    <a href="#"><div>уф-лак сплошной и </div>выборочный</a>
+                </li>
+                <li class="main-services-item ninth-service">
+                    <a href="#">тиснение фольгой</a>
+                </li>
+                <li class="main-services-item tenth-service">
+                    <a href="#">высечка нестанадартной формы</a>
+                </li>
+            </ul>
+        </section>
+        <section class="section-description">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 main-description">
+                        <div class="description-logo">
+                            компания
+                            <a class="logo" href="#">
+                                <img src="img/Logo.jpg" alt="Logo" width="90" height="20">
+                            </a>
+                        </div>
+                        <h2 class="description-header">Оперативная печать полиграфии</h2>
+                        <p class="block-description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+                    </div>
+                    <div class="col-4" id="description-img">
+
+                        10</div>
+                </div>
             </div>
-            <h2 class="description-header">Оперативная печать полиграфии</h2>
-            <p class="block-description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+
         </section>
         <section class="main-advantages">
-            <ul class="advantages-list">
+            <ul class="advantages-list mobile">
                 <li class="advantages-item first-advantages">Современное цифровое и офсетное  оборудование</li>
                 <li class="advantages-item second-advantages">Качественная бумага и расходные  материалы</li>
                 <li class="advantages-item third-advantages">Точное попадание в цвет при  печати</li>
                 <li class="advantages-item forth-advantages">Опытные менеджеры, дизайнеры  и печатники</li>
             </ul>
+            <div class="advantages-list desktop">
+                 <div class="advantages-column advantages-column-first">
+                     <div class="advantages-column-second advantages1 ">
+                        <div>Качественная печать</div>
+                        <div>Современное высокотехнологическое</div>
+                            оборудование.
+                     </div>
+                     <div class="advantages-column-second advantages2">
+                         <div>Доставка по всей Украине </div>
+                         <div>Удобная доставка по всей Украине.</div>
+                     </div>
+                     <div class="advantages-column-second advantages3">
+                         <div>Более 25-ти лет опыта</div>
+                         <div>Наша Миссия - производство продукции</div>
+                         <div>европейского уровня для украинского</div>
+                         потребителя
+                     </div>
+                 </div>
+                <div class="advantages-column">
+                    <div class="advantages-column-second advantages4">
+                        <div>Традиционная оперативность</div>
+                        <div>– возможность изготовления</div>
+                        «Сегодня на сегодня».
+                    </div>
+                    <div class="advantages-column-second advantages5">
+                        <div>Индивидуальный подход к каждому</div>
+                        <div>клиенту</div>
+                        Все клиенты для нас важны!
+                    </div>
+                    <div class="advantages-column-second advantages6">
+                        <div>Лояльные цены</div>
+                        <div>Беспрецедентно гибкая система цен,</div>
+                        скидок и форм оплаты.
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="our-product">
             <h2 class="our-product-header">наша продукция</h2>
@@ -147,39 +247,67 @@
         </section>
         <section class="portfolio">
             <h2 class="portfolio-header">портфолио</h2>
+            <div class="portfolio-desktop">
+                <div class="portfolio-blocks portfolio-first">
+                    <img class="portfolio-block1" src="img/portfolio1.jpg" alt="portfolio">
+                    <img class="portfolio-block2" src="img/portfolio2.jpg" alt="portfolio">
+                    <img class="portfolio-block3" src="img/portfolio3.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-blocks portfolio-second">
+                    <img class="portfolio-block4" src="img/portfolio4.jpg" alt="portfolio">
+                    <img class="portfolio-block5" src="img/portfolio5.jpg" alt="portfolio">
+                </div>
+            </div>
         </section>
         <section class="our-clients">
             <h2 class="our-clients-header">Наши клиенты - наша гордость</h2>
-            <table class="our-clients-table" cellspacing="0">
+            <table class="our-clients-table clients-mobile" cellspacing="0">
                 <tr>
                     <td><a href="#" class="our-clients-link"><img src="img/Epicentrk_logo.png" alt="Epicenter"></a></td>
                     <td><a href="#" class="our-clients-link"><img src="img/Toyota-Logo-PNG-Clipart.png" alt="toyota"></a></td>
                 </tr>
                 <tr>
-                    <td><a href="#" class="our-clients-link"><img src="img/kdpy.png" alt="kdpy"></td>
+                    <td><a href="#" class="our-clients-link"><img src="img/kdpy.png" alt="kdpy"></a></td>
                     <td><a href="#" class="our-clients-link"><img src="img/zolotoy_vek.png" alt="zolotoy_vek"></a></td>
+                </tr>
+            </table>
+            <table class="our-clients-table clients-desktop" cellspacing="0">
+                <tr>
+                    <td><a href="#" class="our-clients-link"><img src="img/Epicentrk_logo.png" alt="Epicenter"></a></td>
+                    <td><a href="#" class="our-clients-link"><img src="img/Toyota-Logo-PNG-Clipart.png" alt="toyota"></a></td>
+                    <td><a href="#" class="our-clients-link"><img src="img/InCruises_logo_for_light_500.png" alt="Cruises"></a></td>
+                    <td><a href="#" class="our-clients-link"><img src="img/yatrian.png" alt="yatrian"></a></td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="our-clients-link"><img src="img/telekom.png" alt="telekom"></a></td>
+                    <td><a href="#" class="our-clients-link"><img src="img/zolotoy_vek.png" alt="zolotoy_vek"></a></td>
+                    <td><a href="#" class="our-clients-link"><img src="img/volkswagen-png-logo-300x300.png" alt="volkswagen"></a></td>
+                    <td><a href="#" class="our-clients-link"><img src="img/PrivatBank-770x547.png" alt="privat"></a></td>
                 </tr>
             </table>
             <button class="our-clients-btn our-clients-prev">prev</button>
             <button class="our-clients-btn our-clients-next">next</button>
         </section>
         <section class="our-address">
-            <h2 class="our-address-header">контакты</h2>
-            <div class="our-address-block">
-                <p><span class="our-address-paragraph">Адрес: 12542, Украина, г. Киев</span>
-                    <span class="our-address-paragraph">ул.Шевченка, 1</span>
-                    <span class="our-address-paragraph">тел.: + 38 (011) 223 34 45</span>
-                    <span class="our-address-paragraph">По вопросам сотрудничества</span>
-                    <span class="our-address-paragraph">с прессой: digital@test.com</span>
-                </p>
-                <p><span class="our-address-paragraph">Booking</span>
-                    <span class="our-address-paragraph">тел.:+ 38 (011) 223 34 45</span>
-                    <span class="our-address-paragraph">test.com</span>
-                    <span class="our-address-paragraph">Конференц-сервис:</span>
-                    <span class="our-address-paragraph">conference@test</span>
-                </p>
+            <h2 class="our-address-header-mobile">контакты</h2>
+            <div class="our-address-desktop">
+                <div class="our-address-block">
+                    <h2 class="our-address-header-desktop ">контакты</h2>
+                    <p><span class="our-address-paragraph">Адрес: 12542, Украина, г. Киев</span>
+                        <span class="our-address-paragraph">ул.Шевченка, 1</span>
+                        <span class="our-address-paragraph">тел.: + 38 (011) 223 34 45</span>
+                        <span class="our-address-paragraph">По вопросам сотрудничества</span>
+                        <span class="our-address-paragraph">с прессой: digital@test.com</span>
+                    </p>
+                    <p><span class="our-address-paragraph">Booking</span>
+                        <span class="our-address-paragraph">тел.:+ 38 (011) 223 34 45</span>
+                        <span class="our-address-paragraph">test.com</span>
+                        <span class="our-address-paragraph">Конференц-сервис:</span>
+                        <span class="our-address-paragraph">conference@test</span>
+                    </p>
+                </div>
+                <img src="img/map.jpg" alt="map" class="our-address-map">
             </div>
-            <img src="img/map.jpg" alt="map" class="our-address-map">
         </section>
     </div>
 </main>
@@ -210,6 +338,7 @@
         </a>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
